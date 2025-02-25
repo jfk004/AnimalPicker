@@ -7,7 +7,7 @@ public class AnimalPicker {
         String choice = "";
         
         while(true){
-            System.out.println("Which animal would you like to see: a dog, a cat or fish.");
+            System.out.println("Which animal would you like to see: a dog, a cat, a fish, or a bear?");
             choice = scan.nextLine();
 
             if(choice.equalsIgnoreCase("dog")){
@@ -22,7 +22,11 @@ public class AnimalPicker {
                 System.out.println("|\\   \\\\\\\\__     o\n| \\_/    o \\    o \n> _   (( <_  oo  \n| / \\__+___/      \n|/     |/");
                 break;
 
-            }else {
+            } else if(choice.equalsIgnoreCase("bear")) {
+                System.out.println(" __         __\n/  \\.-\"\"\"-./  \\\n\\    -   -    /\n |   o   o   |\n \\  .-\'\'\'-.  /\n  \'-\\__Y__/-\'\n     `---`\n");
+                break;
+                
+            } else {
                 System.err.println("Invalid Option");
             }
         }
