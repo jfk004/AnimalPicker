@@ -21,11 +21,13 @@ public class AnimalPicker {
             }else if(choice.equalsIgnoreCase("fish")){
                 System.out.println("|\\   \\\\\\\\__     o\n| \\_/    o \\    o \n> _   (( <_  oo  \n| / \\__+___/      \n|/     |/");
                 break;
-                
+
             }else {
                 System.err.println("Invalid Option");
             }
         }
+
+        scan.close();
         
     }
 }
