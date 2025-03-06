@@ -5,7 +5,8 @@ public class AnimalPicker {
         Scanner scan = new Scanner(System.in);
         
         String choice = "";
-        
+
+
         while(true){
             System.out.println("Which animal would you like to see: a dog, a cat, a fish, a camel, or a bear?");
             choice = scan.nextLine();
